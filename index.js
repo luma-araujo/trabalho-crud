@@ -68,6 +68,8 @@ function menuProdutos() {
                     console.log('Produto adicionado com sucesso.'); 
                      break;
 
+                  // O bloco acima capta as informações que o usário insere e coloca dentro do array produtos
+
 
 
              case 2:
@@ -81,17 +83,20 @@ function menuProdutos() {
                 
 
                 break;
+                // O objetivo desse é listar os produtos, mas está incompleto
         
 
              default: 
              console.log("Opção inválida. Digite uma opção válida.");
              break;
+              //  O objetivo desse default é, em caso de o usuário não digitar um número entre as opções dadas, exibir essa mensagem, solicitando uma opção válida.
             }
     }
                 
                
             
     while (option !== 5);
+     // Enquanto a opção escolhida pelo usuário for diferente de 5, o do é executado, exibindo o menu de produtos   
 
             
 } 
